@@ -1,9 +1,12 @@
 ---
-title: "Demo Post 1"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: "Sep 10 2022"
+title: BAssembling My AI Computer
+author: Jordain Perreault-Joyce
+postSlug: assembling-my-ai-computer
+description: "Parts, Video, Tips & Tricks I used to build my AI computer."
+pubDate: 2023-07-25T09:30:00Z
 heroImage: "/post_img.webp"
-tags: ["tokio"]
+tags: ["PC Hardware", "rust"]
+draft: false
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
