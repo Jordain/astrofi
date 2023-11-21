@@ -14,7 +14,11 @@ description:
 <!-- ## Table of contents -->
  ## Assembled Computer
 
-![Computer Components](@assets/images/ComputerComponents.png)
+<!-- ![Computer Components](@assets/images/assembling-my-ai-computer/ComputerComponents.png) 
+This is the way to do it in markdown for images, but you can't resize them unless you want to use an mdx format.
+@assets is the directory where I had put the images
+will be using public directory to control the size of the images
+-->
 
 <!-- <img src="../../../public/assets/images/ComputerComponents.png" alt="Computer Components"> -->
 Here are the parts I used to build my AI computer 🤖, an assembling video and some tips & tricks 🛠. 

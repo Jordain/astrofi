@@ -1,3 +1,23 @@
 .time-line-container>div:last-child .education__time>.education__line {
     display: none;
 }
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.image-container:hover .hover-image {
+    opacity: 1;
+}
+
+.collapsible-content {
+    display: none;
+}

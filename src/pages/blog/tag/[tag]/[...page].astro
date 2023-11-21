@@ -4,7 +4,7 @@ import HorizontalCard from "@components/HorizontalCard.astro";
 import { getCollection } from "astro:content";
 
 export async function getStaticPaths({ paginate }) {
-  const all_posts = await getCollection("blog");
+  const all_posts = await getCollection("blog",({ data }) => !data.draft);
   const all_tags = all_posts.flatMap((post) => {
     return post.data.tags || [];
   });

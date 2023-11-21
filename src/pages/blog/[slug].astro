@@ -4,7 +4,7 @@ import { BlogSchema } from "../../content/config";
 import PostLayout from "../../layouts/PostLayout.astro";
 
 export async function getStaticPaths() {
-  const postEntries = await getCollection("blog");
+  const postEntries = await getCollection("blog", ({ data }) => !data.draft);
   return postEntries.map((entry) => ({
     params: { slug: entry.slug },
     props: { entry },
@@ -19,6 +19,9 @@ const { entry } = Astro.props;
 const post: BlogSchema = entry.data;
 const { Content } = await entry.render();
 ---
+<!-- This script allows me to use javascript files in my markdown. I had to put my javascript files in a public folder to get it to work. -->
+<script src="/scripts/clipboard.js" defer></script>
+<script src="/scripts/toggleCollapse.js" defer></script>
 
 <PostLayout
   title={post.title}

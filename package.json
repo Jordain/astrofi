@@ -13,13 +13,15 @@
   },
   "dependencies": {
     "@astrojs/mdx": "latest",
-    "@astrojs/rss": "lastest",
+    "@astrojs/rss": "latest",
     "@astrojs/sitemap": "latest",
     "@astrojs/tailwind": "latest",
     "astro": "latest",
     "daisyui": "latest",
     "dayjs": "latest",
     "pkg.json": "^2.0.8",
+    "remark-collapse": "latest",
+    "remark-toc": "latest",
     "sharp": "latest"
   },
   "devDependencies": {
