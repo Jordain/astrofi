@@ -1,6 +1,6 @@
 ---
 author: Jordain Perreault-Joyce
-pubDate: 2023-06-25T09:30:00Z
+pubDate: 2023-11-26T09:30:00Z
 title: Stable Video Diffusion
 postSlug: stable-video-diffusion
 featured: true
