@@ -8,7 +8,7 @@ draft: false
 tags:
   - Stable Diffusion
   - ComfyUI
-heroImage: "/SVD.png"
+heroImage: "/SVDComfyUIMultiLayerVideosThumbnail.png"
 description:
   Install, Walkthrough, ComfyUI Workflows for Stable Video Diffusion
 ---
