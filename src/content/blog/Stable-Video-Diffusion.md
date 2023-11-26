@@ -29,7 +29,6 @@ Right click links and Save link as:
 - [SVD_Segmentation_Test](https://github.com/Jordain/astrofi/blob/main/public/blog/images/stable-video-diffusion/JSON/SVD_Segmentation_Test.json)
 - [SVD_Video_Export](https://github.com/Jordain/astrofi/blob/main/public/blog/images/stable-video-diffusion/JSON/SVD_Video_Export.json)
 
-
 ## Images
 
 Here are the images I used if you want to use them to test around with
@@ -44,7 +43,7 @@ Here are the images I used if you want to use them to test around with
 
 ## Video
 
-<iframe width="100%" height="414" src="https://www.youtube.com/embed/25A7MGj2Wf8?si=2kd554dEprUtIw30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="414" src="https://www.youtube.com/embed/ID6IESHjKzE?si=FIYJ6bdh3-j34G9q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
