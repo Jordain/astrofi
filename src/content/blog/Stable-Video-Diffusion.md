@@ -18,9 +18,7 @@ description:
 
 <!-- <img src="../../../public/assets/images/ComputerComponents.png" alt="Computer Components"> -->
 Here are the parts I used to build my AI computer 🤖, an assembling video and some tips & tricks 🛠. 
-## JSON files
-
-Right click links and Save link as: 
+## JSON files 
 
 - [SVD_1_Layer](https://cdn.discordapp.com/attachments/1178733270930837646/1178733659033960551/SVD_1_Layer.json?ex=65773844&is=6564c344&hm=86c11ee26ee1543f764d4bd0f3fb55e39abf928665600bafc2ba389752bd7dac&)
 - [SVD_2_Layers](https://cdn.discordapp.com/attachments/1178733270930837646/1178733703359369277/SVD_2_Layers.json?ex=6577384e&is=6564c34e&hm=79526a877c3f84940b977626a38305672edb64b0274ae08cbf16fc5a9467405a&)
