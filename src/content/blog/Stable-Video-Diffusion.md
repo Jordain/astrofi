@@ -27,6 +27,13 @@ Here are the parts I used to build my AI computer 🤖, an assembling video and 
 - [SVD_Segmentation_Test](https://cdn.discordapp.com/attachments/1178733270930837646/1178733734191714325/SVD_Segmentation_Test.json?ex=65773856&is=6564c356&hm=45b0064fdd9bd16bfce6b879b27a9b0f62781a2348ac15dba0a15196e5167479&)
 - [SVD_Video_Export](https://cdn.discordapp.com/attachments/1178733270930837646/1178733747659620443/SVD_Video_Export.json?ex=65773859&is=6564c359&hm=9c7826ee6537fee937e786087a395e57d3145278484b7985f55de7e3a446cbf4&)
 
+Updated SVD_3__Layers 11/30/2023
+
+- [SVD_3_Layers_Mask](https://cdn.discordapp.com/attachments/1178733270930837646/1179896307792478268/SVD_3_Layers_Masks.json?ex=657b7311&is=6568fe11&hm=a8a9d8b3e98fce0d1b38503096f1db8296989936ca1a1cbd866ee9e477a0a3cc&)
+
+- [SVD_3_Layers_Static](https://cdn.discordapp.com/attachments/1178733270930837646/1179896323802140733/SVD_3_Layers_Static.json?ex=657b7315&is=6568fe15&hm=c8382442be1bf9ee6b2284d43925fb9092da8c83061b7d7197940f1074db1b8f&)
+
+
 ## Images
 
 Here are the images I used if you want to use them to test around with
@@ -42,7 +49,4 @@ Here are the images I used if you want to use them to test around with
 ## Video
 
 <iframe width="100%" height="414" src="https://www.youtube.com/embed/ID6IESHjKzE?si=FIYJ6bdh3-j34G9q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
 
