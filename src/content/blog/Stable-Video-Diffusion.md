@@ -48,5 +48,10 @@ Here are the images I used if you want to use them to test around with
 
 ## Video
 
+Part 1
+
 <iframe width="100%" height="414" src="https://www.youtube.com/embed/ID6IESHjKzE?si=FIYJ6bdh3-j34G9q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+Part 2
+
+<iframe width="100%" height="414" src="https://www.youtube.com/embed/wRwUcSMqYNI?si=Ror7LNz_UT2HaXfh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
