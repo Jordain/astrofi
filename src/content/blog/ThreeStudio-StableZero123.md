@@ -37,7 +37,7 @@ or
 
 ## Video
 
-<iframe width="100%" height="414" src="hattps://www.youtube.com/embed/ID6IESHjKzE?si=FIYJ6bdh3-j34G9q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="414" src="https://www.youtube.com/embed/jaRr5W80N8E?si=G6soWi5mcBxpBSlj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Instructions
 
