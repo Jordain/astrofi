@@ -39,22 +39,18 @@ Updated SVD_3_Layers 11/30/2023
 Here are the images I used if you want to use them to test around with
 
 <div class="grid grid-cols-2 gap-1">
-  <div>
     <img src="/blog/images/stable-video-diffusion/Convo_GS_576x1024.png" alt="ConvoGS" width="300" height="200">
     <img src="/blog/images/stable-video-diffusion/Convo576x1024.png" alt="Convo" width="300" height="200">
-  </div>
-  <div>
-    <!-- ![Circle Mask](@assets/images/automatic1111-qr-code-monster-tutorial/CircleMask.jpg=200w300h "Circle Mask") -->
+</div>
+<div class="grid grid-cols-2 gap-1">
     <img src="/blog/images/stable-video-diffusion/Train_GS_576x1024.png" alt="TrainGS" width="300" height="200">
     <img src="/blog/images/stable-video-diffusion/Train576x1024.png" alt="Train" width="300" height="200">
-  </div>
-  <div>
-    <!-- ![Circle Mask](@assets/images/automatic1111-qr-code-monster-tutorial/CircleMask.jpg=200w300h "Circle Mask") -->
+</div>
+<div class="grid grid-cols-2 gap-1">
     <img src="/blog/images/stable-video-diffusion/Desert_Rails576x1024.png" alt="Desert1" width="300" height="200">
     <img src="/blog/images/stable-video-diffusion/Desert576x1024.png" alt="Desert2" width="300" height="200">
-  </div>
-
 </div>
+
 ## Video
 
 Part 1
