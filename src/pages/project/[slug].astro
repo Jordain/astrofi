@@ -1,0 +1,37 @@
+---
+import { CollectionEntry, getCollection } from "astro:content";
+import { ProjectsSchema } from "../../content/config";
+import PostLayout from "../../layouts/PostLayout.astro";
+
+export async function getStaticPaths() {
+  const projectEntries = await getCollection("project", ({ data }) => !data.draft);
+  return projectEntries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<"project">;
+}
+
+const { entry } = Astro.props;
+const post: ProjectsSchema = entry.data;
+const { Content } = await entry.render();
+---
+<!-- This script allows me to use javascript files in my markdown. I had to put my javascript files in a public folder to get it to work. -->
+<script src="/scripts/clipboard.js" defer></script>
+<script src="/scripts/toggleCollapse.js" defer></script>
+
+<PostLayout
+  title={post.title}
+  description={post.description}
+  pubDate={post.pubDate}
+  heroImage={post.heroImage}
+  updatedDate={post.updatedDate}
+  badge={post.badge}
+  tags={post.tags}
+>
+  <Content />
+</PostLayout>
+<!-- if issues put this back in post layout: pubDate={post.pubDate} -->

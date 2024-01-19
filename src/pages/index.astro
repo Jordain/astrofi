@@ -6,6 +6,10 @@ import { getCollection } from "astro:content";
 const posts = (await getCollection("blog",({ data }) => !data.draft)).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const last_posts = posts.slice(0, 3);
+
+const project_posts = (await getCollection("project",({ data }) => !data.draft)).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const project_last_posts = project_posts.slice(0, 3);
 ---
 
 <BaseLayout sideBarActiveItemID="home">
@@ -24,36 +28,8 @@ const last_posts = posts.slice(0, 3);
       <a class="btn btn-primary" href="mailto:contact.jordainjoyce@gmail.com" target="_blank"> Let's connect!</a>
     </div>
   </div>
-
   <div>
-    <div class="text-3xl w-full font-bold mb-2">My last projects 🛠️</div>
-  </div>
-
-  <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
-  />
-
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog 📰</div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from Blog 📰</div>
   </div>
 
   {
@@ -71,4 +47,52 @@ const last_posts = posts.slice(0, 3);
       </>
     ))
   }
+
+<div>
+  <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from Project 🛠️</div>
+</div>
+
+{
+  project_last_posts.map((project_posts) => (
+    <>
+      <HorizontalCard
+        title={project_posts.data.title}
+        img={project_posts.data.heroImage}
+        desc={project_posts.data.description}
+        url={"/project/" + project_posts.slug}
+        target="_self"
+        badge={project_posts.data.badge}
+      />
+      <div class="divider my-0" />
+    </>
+  ))
+}
+
+
+<!-- <div>
+  <div class="text-3xl w-full font-bold mb-2">My last projects 🛠️</div>
+</div>
+
+<HorizontalCard
+  title="Demo Project 1"
+  img="/post_img.webp"
+  desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  url="#"
+  badge="NEW"
+/>
+<div class="divider my-0"></div>
+<HorizontalCard
+  title="Demo Project 2"
+  img="/post_img.webp"
+  desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  url="#"
+/>
+<div class="divider my-0"></div>
+<HorizontalCard
+  title="Demo Project 3"
+  img="/post_img.webp"
+  desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  url="#"
+  badge="FOSS"
+/> -->
 </BaseLayout>
