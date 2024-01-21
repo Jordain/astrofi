@@ -8,16 +8,12 @@ draft: false
 tags:
   - Stable Diffusion
   - ComfyUI
+  - AI
 heroImage: "/SVDComfyUIMultiLayerVideosThumbnail.png"
 description:
   Install, Walkthrough, ComfyUI Workflows for Stable Video Diffusion
 ---
-<!-- ## Table of contents -->
-## Table of contents
 
-
-<!-- <img src="../../../public/assets/images/ComputerComponents.png" alt="Computer Components"> -->
-Here are the parts I used to build my AI computer 🤖, an assembling video and some tips & tricks 🛠. 
 ## JSON files 
 
 - [SVD_1_Layer](https://cdn.discordapp.com/attachments/1178733270930837646/1178733659033960551/SVD_1_Layer.json?ex=65773844&is=6564c344&hm=86c11ee26ee1543f764d4bd0f3fb55e39abf928665600bafc2ba389752bd7dac&)

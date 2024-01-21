@@ -8,6 +8,7 @@ draft: false
 tags:
   - ThreeStudio
   - Stable Zero123
+  - AI
 heroImage: "/ThreeStudioStableZero123InstallThumbnail.png"
 description:
   Install ThreeStudio and Stable Zero123, Use an image to generate a 3d model.

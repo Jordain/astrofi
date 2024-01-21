@@ -7,6 +7,7 @@ featured: true
 draft: false
 tags:
   - Hardware
+  - AI
 heroImage: "/PCBuildThumbnail.png"
 description:
   Parts, Video, Tips & Tricks I used to build my AI computer.
