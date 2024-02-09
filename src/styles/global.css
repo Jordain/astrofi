@@ -21,3 +21,7 @@
 .collapsible-content {
     display: none;
 }
+
+summary {
+    cursor: pointer;
+  }
