@@ -22,5 +22,4 @@ pnpm-debug.log*
 .astro/
 
 # Public Pictures
-public/blog/
 public/project/
