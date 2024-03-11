@@ -30,10 +30,16 @@ or
 
 ## Images
 
-![Black Hoodie](https://cdn.discordapp.com/attachments/1154440279244423188/1195944237594836992/CuteMiniLogo.png?ex=65b5d4dd&is=65a35fdd&hm=a68c4ed480a9d2def73c12a5428c550f54a13209b2db464cdae05e739804bcb3&=&format=webp&width=512&height=512)
+<img src="/blog/images/ThreeStudio-StableZero123/BlackHoodie.png" alt="Black Hoodie" width="300" height="300">
+<img src="/blog/images/ThreeStudio-StableZero123/WhiteHoodie.png" alt="White Hoodie" width="300" height="300">
+<img src="/blog/images/ThreeStudio-StableZero123/SnowMan.jpg" alt="Snow Dude" width="300" height="300">
+<img src="/blog/images/ThreeStudio-StableZero123/RoboKid.jpg" alt="Robo Kid" width="300" height="300">
+
+
+<!-- ![Black Hoodie](https://cdn.discordapp.com/attachments/1154440279244423188/1195944237594836992/CuteMiniLogo.png?ex=65b5d4dd&is=65a35fdd&hm=a68c4ed480a9d2def73c12a5428c550f54a13209b2db464cdae05e739804bcb3&=&format=webp&width=512&height=512)
 ![White Hoodie](https://cdn.discordapp.com/attachments/1154440279244423188/1195944207462973542/WhiteHoodie2ReferenceW.png?ex=65b5d4d6&is=65a35fd6&hm=07d6818f81cdb6a705dd643cfd07f7e7413dcd595dc70e8d65696e334ef6edaa&=&format=webp&width=512&height=512)
 ![Snow Dude](https://cdn.discordapp.com/attachments/1154440279244423188/1195935973373116477/SnowMan.jpg?ex=65b5cd2b&is=65a3582b&hm=e100683f7043c147b148c2b14d1bfade60284fb46eeabca455e561ecabc8add9&=&format=webp&width=512&height=512)
-![Robo Kid](https://cdn.discordapp.com/attachments/1154440279244423188/1195935911595233340/Robo.jpg?ex=65b5cd1c&is=65a3581c&hm=28b9ed1e66d420856e247e7999ec4667f56ecbacde3795c2592c411601f3f699&=&format=webp&width=512&height=512)
+![Robo Kid](https://cdn.discordapp.com/attachments/1154440279244423188/1195935911595233340/Robo.jpg?ex=65b5cd1c&is=65a3581c&hm=28b9ed1e66d420856e247e7999ec4667f56ecbacde3795c2592c411601f3f699&=&format=webp&width=512&height=512) -->
 
 
 ## Video
