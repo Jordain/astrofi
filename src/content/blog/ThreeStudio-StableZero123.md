@@ -30,11 +30,12 @@ or
 
 ## Images
 
+<div class="grid grid-cols-4 gap-2">
 <img src="/blog/images/ThreeStudio-StableZero123/BlackHoodie.png" alt="Black Hoodie" width="300" height="300">
 <img src="/blog/images/ThreeStudio-StableZero123/WhiteHoodie.png" alt="White Hoodie" width="300" height="300">
 <img src="/blog/images/ThreeStudio-StableZero123/SnowMan.jpg" alt="Snow Dude" width="300" height="300">
 <img src="/blog/images/ThreeStudio-StableZero123/RoboKid.jpg" alt="Robo Kid" width="300" height="300">
-
+</div>
 
 <!-- ![Black Hoodie](https://cdn.discordapp.com/attachments/1154440279244423188/1195944237594836992/CuteMiniLogo.png?ex=65b5d4dd&is=65a35fdd&hm=a68c4ed480a9d2def73c12a5428c550f54a13209b2db464cdae05e739804bcb3&=&format=webp&width=512&height=512)
 ![White Hoodie](https://cdn.discordapp.com/attachments/1154440279244423188/1195944207462973542/WhiteHoodie2ReferenceW.png?ex=65b5d4d6&is=65a35fd6&hm=07d6818f81cdb6a705dd643cfd07f7e7413dcd595dc70e8d65696e334ef6edaa&=&format=webp&width=512&height=512)
