@@ -13,62 +13,70 @@ const project_last_posts = project_posts.slice(0, 3);
 ---
 
 <BaseLayout sideBarActiveItemID="home">
-  <div class="pb-12 mt-5">
-    <div class="text-5xl font-bold">I'm Jordain Perreault-Joyce</div>
-    <div class="py-2">
-      <text class="text-lg">
-        A versatile professional with expertise in data, programming, hardware, networking and AI.
-        Proficient in managing diverse technology stacks, from software development to system administration.
-        Skilled in adapting to new technologies and finding innovative solutions across multiple domains.
+    <div class="text-4xl font-bold">I'm Jordain Perreault-Joyce</div>
+    <div class="py-5">
+      <text class="text-lg italic">
+        Data, code, imagination, and AI - where technology meets creativity
       </text>
     </div>
-    <div class="mt-8">
-      <a class="btn btn-primary" href="mailto:contact.jordainjoyce@gmail.com" target="_blank"> Let's connect!</a>
-    </div>
-  </div>
-  <div>
-    <div class="text-3xl w-full font-bold mb-5">Latest from Blog 📰</div>
-  </div>
+<div>
+  <div class="text-3xl w-full font-bold mb-5">Featured ✨</div>
+</div>
 
-  {
-    last_posts.map((post) => (
-      <>
-        <HorizontalCard
-          title={post.data.title}
-          img={post.data.heroImage}
-          desc={post.data.description}
-          url={"/blog/" + post.slug}
-          target="_self"
-          badge={post.data.badge}
-        />
-        <div class="divider my-0" />
-      </>
-    ))
-  }
+<HorizontalCard
+  title="Comfy Image Workshop"
+  img="/ComfyImageWorkshop.png"
+  desc="Generate AI Images. A scalable solution that simplifies the integration of ComfyUI for developers."
+  url="/project/comfy-image-workshop"
+  badge="NEW"
+  target="_self"
+/>
+
 
 <div>
-  <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from Project 🛠️</div>
+  <div class="text-3xl w-full font-bold my-5">Latest from Blog 📰</div>
 </div>
 
 {
-  project_last_posts.map((project_posts) => (
+  last_posts.map((post) => (
     <>
       <HorizontalCard
-        title={project_posts.data.title}
-        img={project_posts.data.heroImage}
-        desc={project_posts.data.description}
-        url={"/project/" + project_posts.slug}
+        title={post.data.title}
+        img={post.data.heroImage}
+        desc={post.data.description}
+        url={"/blog/" + post.slug}
         target="_self"
-        badge={project_posts.data.badge}
+        badge={post.data.badge}
       />
       <div class="divider my-0" />
     </>
   ))
 }
 
+  <div>
+    <div class="text-3xl w-full font-bold my-5">Latest from Project 🛠️</div>
+  </div>
+  
+  {
+    project_last_posts.map((project_posts) => (
+      <>
+        <HorizontalCard
+          title={project_posts.data.title}
+          img={project_posts.data.heroImage}
+          desc={project_posts.data.description}
+          url={"/project/" + project_posts.slug}
+          target="_self"
+          badge={project_posts.data.badge}
+        />
+        <div class="divider my-0" />
+      </>
+    ))
+  }
+
+
 
 <!-- <div>
-  <div class="text-3xl w-full font-bold mb-2">My last projects 🛠️</div>
+  <div class="text-3xl w-full font-bold mb-2">Featured ✨</div>
 </div>
 
 <HorizontalCard
